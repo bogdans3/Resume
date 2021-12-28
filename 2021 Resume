@@ -1,0 +1,169 @@
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Syncopate:wght@700&display=swap" rel="stylesheet">
+<style>
+body {
+  background-color: grey;
+  font-family: Syncopate, Manrope;
+}
+.text-align-right {
+  text-align:right;
+  font-size: 50px;
+}
+h1{
+  color:#FFFFFF;
+  text-align: right; 
+  font-family: Syncopate, Manrope;
+}
+h2 {
+  color: #FFFFFF; 
+  text-align: right;
+  font-family: Syncopate, Manrope;
+}
+h3 {
+  color: #FFFFFF; 
+  font-size: 30px;
+  font-family: Syncopate, Manrope;
+}
+p {
+  color: #FFFFFF; 
+  font-family: Syncopate, Manrope;
+}
+.inline-box {
+  display: flex;
+  justify-content: center;
+   
+}
+
+.box1 {
+  background-color: #97ABBB;
+  padding:100px;
+  border-radius: 5%;
+  height: auto;
+  width:auto;
+  margin: auto;
+  color: #FFFFFF;
+  Line-height: 200%;
+}
+.box2 {
+  background-color: #97ABBB;
+  padding: 100px;
+  border-radius: 5%;
+  margin:auto;
+  height: auto;
+  width:auto;
+  color: #FFFFFF;
+}
+.box3 {
+  background-color: #97ABBB;
+  padding: 100px;
+  border-radius: 5%;
+  height: auto;
+  width:auto;
+  color: #FFFFFF;
+}
+.header-box {
+  background-color: #545F68;
+  padding:200px;
+  border-radius: 5%;
+  height: auto;
+  width:auto;
+  margin: auto;
+  color: #FFFFFF;
+  overflow-wrap: break-word;
+ 
+}
+.img {
+  border-radius: 50%; 
+}
+@media (min-width: 992px){
+.nav-bar{
+  background-color: #97ABBB;
+  padding: 10px;
+  border-radius: 10%;
+  link-color: white;
+  color: white;
+  position:absolute, center;
+  text-align: center;
+  margin-left:10em;
+  margin-right:10em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+}
+
+</style>
+<div>
+<nav class="nav-bar" id="nav-bar">
+    <a style="color:white" id="Education" class="nav-link" href="#Education">Education</a>
+    <a style="color:white" id="Notable-skills" class="nav-link" href="#Notable-skills">Notable Skills</a>
+  <a style="color:white" id= "Portfolio" class="nav-link" href="#Portfolio">Portfolio</a>
+  <a style="color:white" id= "Contact-Information" class="nav-link" href="#Contact-Information" target="_blank" rel="noopener noreferrer">Contact-Information</a>
+  </div> 
+  
+<div class="header-box">
+  <img class="img" style="float:left" src="https://scontent.fdet1-1.fna.fbcdn.net/v/t1.6435-9/31525599_10155971666581634_4923964766872928256_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=174925&_nc_ohc=vsVP6tL2WEgAX8TCmEn&_nc_ht=scontent.fdet1-1.fna&oh=00_AT81liqooHLd-TjIZBBB9l1acSmNUpQ0_deGOcP7WcCgcA&oe=61E14337" alt="picture of April Centeno">
+  <h1>A P R I L C E N T E N O</h1>
+<h2>Professional</h2>
+  <p class="text-align-right">"There is always room for improvement; I will find it."</p>
+</div>
+  <div class="inline-box">
+  <div class="box1"> 
+    <h3 id="Notable-Skills"><ul><b>Notable Skills</b></ul></h3>
+    <p>
+    <ul><a style="color:white" id="Brochures" name="Brochures" target="_blank" rel="noopener noreferrer" href="https://www.freecodecamp.org/certification/bogdans3/responsive-web-design">HTML5</a></ul></label>
+    <ul><a style="color:white" id="Brochures" name="Brochures" target="_blank" rel="noopener noreferrer" href="https://brokercheck.finra.org/individual/summary/6831592">Series 6</a></ul></label>
+   <ul><a style="color:white" id="Brochures" name="Brochures" target="_blank" rel="noopener noreferrer" href="https://www.servsafe.com/access/SS/Certifications/CertSearch?IsSearch=true&IssuedLastName=bogdanski&CertificateId=&ProgramCode=SSALRGNS&IssuedFirstName=april&StateProvince=MI">ServSafe Allergens</a></ul></label>
+    <li>LOMA Certifications: ASRI, FSRI, FLMI, ACS, ALMI</li>
+    <li>Microsoft Office: Excel, Word, Power Point, etc. </li>
+    <li>Adobe Photo Shop</li>
+    <li>ServSafe Food Handleing (2009-2014)</li>
+    </p>
+  </div>
+  <div class="box2">
+    <h3 id="Education"><ul>Education</ul></h3>
+    <p><u>High School:</u></p>
+    <p>Chelsea High School; Diploma</p>
+    <div></div>
+    <p><u>University:</u></p>
+    <p>Michigan State University; Bachelors Human Biology<p>
+    </div>
+    <div class="box3">
+      <h3 id="Portfolio">Portfolio</H3>
+      <p>Creation of Documents</p>
+      <label for="Brochures">
+       <ul><a style="color:white" id="Brochures" name="Brochures" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/0B_qfFv2uDIJJdVF6c3I3TnZ6OFk/view?usp=sharing&resourcekey=0-9mkCsdt3_J8nml7ZjGEA9w" alt="link to brochure example">Brochures</a></ul></label>
+     <label for="customer-guides">
+<ul><a style="color:white" id="customer-guides" name="customer-guides" target="_blank" rel="noopener noreferrer"href="https://docs.google.com/spreadsheets/d/0B_qfFv2uDIJJdnExUkVJa3p2bEk/edit?usp=sharing&ouid=100759366474921509491&resourcekey=0-LlxnisAAhtEFnXIwHiGrcg&rtpof=true&sd=true" alt="example of customer help guide">Customer informational guides</a></ul></label>
+ <br></br>     
+  <p>Management/Training</p>
+      
+   <label for="Employee-Expectations">
+   <ul><a style="color:white" id="Employee-Expectations" name="Employee-Expectations" target="_blank" rel="noopener noreferrer"href="https://docs.google.com/document/d/0B_qfFv2uDIJJYzY4eXhuMUExTW8/edit?usp=sharing&ouid=100759366474921509491&resourcekey=0-Al5x0u9Jzx_zrW9fQ1zJ1A&rtpof=true&sd=true">Employee Expectations Implementation</a></ul></label>
+     
+  <label for="Training-Proceadures">
+  <ul><a style="color:white" id="Training-Proceadures" name="Training-Proceadures" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/0B_qfFv2uDIJJc1d0SXVwVmt4RTA/edit?usp=sharing&ouid=100759366474921509491&resourcekey=0-WsPrMFG7G8WPcqkjZdQO_Q&rtpof=true&sd=true">Training Proceadures</a></ul></label>
+      
+<br></br>   
+<p>Data Manipulation</p>
+  <label for="Exporting-POS-Data">
+  <ul><a style="color:white" id="Exporting-POS-Data" name="Exporting-POS-Data" target="_blank" rel="noopener noreferrer"href="https://docs.google.com/spreadsheets/d/0B_qfFv2uDIJJYVdianktYUtKXzA/edit?usp=sharing&ouid=100759366474921509491&resourcekey=0-0bPcPmdtFgGooE3OAHRCUA&rtpof=true&sd=true" alt="data exported to make reports">Exporting Data to Excel</a></ul></label>
+<ul><a style="color:white" id="data-collection" name="data-collection" target="_blank" rel="noopener noreferrer"href="https://docs.google.com/spreadsheets/d/0B_qfFv2uDIJJY3NGN1hEalE2UlU/edit?usp=sharing&ouid=100759366474921509491&resourcekey=0-ws0rDW0dwwgzdUXmut0x6A&rtpof=true&sd=true" alt="data collection example">Data collection and manipulation for problem solving</a></ul></label>
+    
+<br></br>
+ <p>Human Resources</p>
+  <label for="new-hire-application-creation">
+ <ul><a style="color:white" id="new-hire-application-creation" name="new-hire-application-creation" target="_blank" rel="noopener noreferrer"href="https://drive.google.com/file/d/0B_qfFv2uDIJJaW1UWDlDcjJWNmc/view?usp=sharing&resourcekey=0--7oc5qP-9X1Wdy0TDA0K-w" alt="Employee Application Example">Employment Applications</a></ul></label>
+
+  <label for="Employee-Evaluations">
+   <ul><a style="color:white" id="Employee-Evaluations" name="Employee-Evaluations" target="_blank" rel="noopener noreferrer"href="https://drive.google.com/file/d/0B_qfFv2uDIJJaW1UWDlDcjJWNmc/view?usp=sharing&resourcekey=0--7oc5qP-9X1Wdy0TDA0K-w" alt="Employee Evaluations Example">Employee Evaluations</a></ul></label>
+ 
+  <br></br>
+<p>Quality Assurance</p>
+
+<ul><a style="color:white" id="Proper-measurments-worksheet" name="Proper-measurments-worksheet" target="_blank" rel="noopener noreferrer"href="https://docs.google.com/spreadsheets/d/0B_qfFv2uDIJJdnExUkVJa3p2bEk/edit?usp=sharing&ouid=100759366474921509491&resourcekey=0-LlxnisAAhtEFnXIwHiGrcg&rtpof=true&sd=true" alt="Proper measurments worksheet">Employee production job aid</a></ul></label>
+
+<ul><a style="color:white" id="cake-decorator-production-worksheet" name="cake-decorator-production-worksheet" target="_blank" rel="noopener noreferrer"href="https://docs.google.com/spreadsheets/d/0B_qfFv2uDIJJRXNUTF9rM3F3QlU/edit?usp=sharing&ouid=100759366474921509491&resourcekey=0-YOyXXI943VzXrDxr_xkoBg&rtpof=true&sd=true" alt="Cake decorator production worksheet">Employee performace indicator worksheet</a></ul></label>
+
+   
+</div>
+  </div>
